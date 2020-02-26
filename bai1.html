@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 1</title>
+</head>
+<body>
+    <div>
+        <h1>Bai 1</h1>
+        <p>Before: Red,Green,White,Black</p>
+    </div>
+    <div>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        let myColor = ["Red", "Green", "White", "Black"];
+        let display = document.getElementById("result");
+        myColor.toString();
+        display.innerHTML = "After: " + myColor.join("+");
+    </script>
+</body>
+</html>
